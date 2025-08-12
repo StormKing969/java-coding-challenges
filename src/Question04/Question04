@@ -1,0 +1,35 @@
+Developers at Doom have their applications deployed on n servers. Initially, the i-th server has an id server[i] and can
+handle server[i] requests at a time.
+
+For maintenance purposes, some servers are replaced periodically. On a j-th day, all the servers with id equal to
+replaced[j] are replaced with servers with id newId[j] that can serve newId[j] requests. The total number of requests
+served on a j-th day is the sum of the ids of the servers that the application is running on.
+
+Given server, replaced, and newId, find the total number of requests served by the servers each day.
+
+Note: The indices i and j are assumed to follow 1-based indexing.
+
+Example:
+
+Suppose n = 2, server = [20, 10], replaced = [10, 20], newId = [20, 1]
+
+Table:
+
+Day | Servers     | Replacement | New Servers | Total Requests
+----|-------------|-------------|-------------|----------------
+1   | [20, 10]    | 10 → 20     | [20, 20]    | 20 + 20 = 40
+2   | [20, 20]    | 20 → 1      | [1, 1]      | 1 + 1 = 2
+
+Hence the answer is [40, 2].
+
+Function Description
+
+calculateDailyServerCapacity takes the following arguments:
+    int server[n]: the initial server ids
+    int replaced[n]: the ids of the servers to replace
+    int newId[n]: the new ids of the replaced servers
+Returns
+    int[n]: the total number of requests that can be served each day
+Constraints
+    1 ≤ n ≤ 10^5
+    1 ≤ server[i], replaced[i], newId[i] ≤ 10^4
