@@ -1,0 +1,11 @@
+You are given a 2D grid of '1's (land) and '0's (water). An island is formed by connecting adjacent lands horizontally
+or vertically. Return the number of islands in the grid.
+
+Input:
+[
+  ['1','1','0','0','0'],
+  ['1','1','0','0','0'],
+  ['0','0','1','0','0'],
+  ['0','0','0','1','1']
+]
+Output: 3
