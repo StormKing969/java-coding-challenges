@@ -2,13 +2,13 @@ package LeetCode.Zigzag_Conversion;
 
 public class ZigzagConversion {
     public static void main(String[] args) {
-//        System.out.println("B => " + convert("B", 2));
-//        System.out.println("AB => " + convert("AB", 1));
-//        System.out.println("A => " + convert("A", 1));
-//        System.out.println("ABCD => " + convert("ABCD", 2));
+        System.out.println("B => " + convert("B", 2));
+        System.out.println("AB => " + convert("AB", 1));
+        System.out.println("A => " + convert("A", 1));
+        System.out.println("ABCD => " + convert("ABCD", 2));
         System.out.println("PAYPALISHIRING => " + convert("PAYPALISHIRING", 3));
-//        System.out.println("PAYPALISHIRING => " + convert("PAYPALISHIRING", 4));
-//        System.out.println("Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers. => " + convert("Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers.", 2));
+        System.out.println("PAYPALISHIRING => " + convert("PAYPALISHIRING", 4));
+        System.out.println("Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers. => " + convert("Apalindromeisaword,phrase,number,orothersequenceofunitsthatcanbereadthesamewayineitherdirection,withgeneralallowancesforadjustmentstopunctuationandworddividers.", 2));
     }
 
     public static String convert(String sentence, int numRows) {
