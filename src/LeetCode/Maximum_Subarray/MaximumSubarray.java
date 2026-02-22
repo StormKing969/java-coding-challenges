@@ -34,6 +34,7 @@ public class MaximumSubarray {
         int[] dp = new int[n];
         dp[0] = nums[0];
         for (int i = 1; i < n; i++) {
+//            System.out.println(Arrays.toString(dp));
             dp[i] = Math.max(nums[i], nums[i] + dp[i - 1]);
         }
 
