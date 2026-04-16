@@ -1,0 +1,185 @@
+{
+  "error": "",
+  "availableFlights": [
+    {
+      "price": {
+        "Currency": "USD",
+        "AdultBaseFare": 91.15,
+        "AdultTax": 30.44,
+        "ChildBaseFare": 0.0,
+        "ChildTax": 0.0,
+        "InfantWSBaseFare": 0.0,
+        "InfantWSTax": 0.0,
+        "InfantBaseFare": 0.0,
+        "InfantTax": 0.0,
+        "TotalAmount": 121.59,
+        "BaseFare": 91.15,
+        "Tax": 30.44,
+        "isRefundable": false
+      },
+      "outbound": [
+        {
+          "Cabin": "Economy",
+          "CabinClass": "G",
+          "flightNumber": "199",
+          "marketingAirline": "NK",
+          "operatingAirline": "NK",
+          "equipmentType": "32A",
+          "departureDatetime": "2023-01-10T17:50:00",
+          "arrivalDatetime": "2023-01-10T19:27:00",
+          "departureAirport": "MCO",
+          "arrivalAirport": "IAH",
+          "departureTerminal": "0",
+          "arrivalTerminal": "A",
+          "layover": "2:32",
+          "transportType": "Flight",
+          "fareBasis": "GA2101"
+        }
+      ]
+    },
+    {
+      "price": {
+        "Currency": "USD",
+        "AdultBaseFare": 150.00,
+        "AdultTax": 45.00,
+        "ChildBaseFare": 0.0,
+        "ChildTax": 0.0,
+        "InfantWSBaseFare": 0.0,
+        "InfantWSTax": 0.0,
+        "InfantBaseFare": 0.0,
+        "InfantTax": 0.0,
+        "TotalAmount": 195.00,
+        "BaseFare": 150.00,
+        "Tax": 45.00,
+        "isRefundable": true
+      },
+      "outbound": [
+        {
+          "Cabin": "Economy",
+          "CabinClass": "Y",
+          "flightNumber": "342",
+          "marketingAirline": "AA",
+          "operatingAirline": "AA",
+          "equipmentType": "738",
+          "departureDatetime": "2023-01-10T08:00:00",
+          "arrivalDatetime": "2023-01-10T11:30:00",
+          "departureAirport": "JFK",
+          "arrivalAirport": "LAX",
+          "departureTerminal": "8",
+          "arrivalTerminal": "4",
+          "layover": null,
+          "transportType": "Flight",
+          "fareBasis": "YA1234"
+        }
+      ]
+    },
+    {
+      "price": {
+        "Currency": "USD",
+        "AdultBaseFare": 200.00,
+        "AdultTax": 60.00,
+        "ChildBaseFare": 0.0,
+        "ChildTax": 0.0,
+        "InfantWSBaseFare": 0.0,
+        "InfantWSTax": 0.0,
+        "InfantBaseFare": 0.0,
+        "InfantTax": 0.0,
+        "TotalAmount": 999.99,
+        "BaseFare": 200.00,
+        "Tax": 60.00,
+        "isRefundable": false
+      },
+      "outbound": [
+        {
+          "Cabin": "Business",
+          "CabinClass": "J",
+          "flightNumber": "501",
+          "marketingAirline": "DL",
+          "operatingAirline": "DL",
+          "equipmentType": "763",
+          "departureDatetime": "2023-01-10T06:00:00",
+          "arrivalDatetime": "2023-01-10T09:45:00",
+          "departureAirport": "ATL",
+          "arrivalAirport": "ORD",
+          "departureTerminal": "S",
+          "arrivalTerminal": "3",
+          "layover": null,
+          "transportType": "Flight",
+          "fareBasis": "JB5678"
+        }
+      ]
+    },
+    {
+      "price": {
+        "Currency": "USD",
+        "AdultBaseFare": 75.00,
+        "AdultTax": 22.50,
+        "ChildBaseFare": 0.0,
+        "ChildTax": 0.0,
+        "InfantWSBaseFare": 0.0,
+        "InfantWSTax": 0.0,
+        "InfantBaseFare": 0.0,
+        "InfantTax": 0.0,
+        "TotalAmount": 97.50,
+        "BaseFare": 75.00,
+        "Tax": 22.50,
+        "isRefundable": false
+      },
+      "outbound": [
+        {
+          "Cabin": "Economy",
+          "CabinClass": "Q",
+          "flightNumber": "88",
+          "marketingAirline": "WN",
+          "operatingAirline": "WN",
+          "equipmentType": "73W",
+          "departureDatetime": "2023-01-10T14:00:00",
+          "arrivalDatetime": "2023-01-10T15:45:00",
+          "departureAirport": "DAL",
+          "arrivalAirport": "HOU",
+          "departureTerminal": "1",
+          "arrivalTerminal": "1",
+          "layover": null,
+          "transportType": "Flight",
+          "fareBasis": "QW0099"
+        }
+      ]
+    },
+    {
+      "price": {
+        "Currency": "USD",
+        "AdultBaseFare": 320.00,
+        "AdultTax": 85.00,
+        "ChildBaseFare": 0.0,
+        "ChildTax": 0.0,
+        "InfantWSBaseFare": 0.0,
+        "InfantWSTax": 0.0,
+        "InfantBaseFare": 0.0,
+        "InfantTax": 0.0,
+        "TotalAmount": 405.00,
+        "BaseFare": 320.00,
+        "Tax": 85.00,
+        "isRefundable": true
+      },
+      "outbound": [
+        {
+          "Cabin": "Economy",
+          "CabinClass": "B",
+          "flightNumber": "712",
+          "marketingAirline": "UA",
+          "operatingAirline": "UA",
+          "equipmentType": "789",
+          "departureDatetime": "2023-01-10T07:30:00",
+          "arrivalDatetime": "2023-01-11T06:00:00",
+          "departureAirport": "SFO",
+          "arrivalAirport": "LHR",
+          "departureTerminal": "3",
+          "arrivalTerminal": "2",
+          "layover": null,
+          "transportType": "Flight",
+          "fareBasis": "BU7890"
+        }
+      ]
+    }
+  ]
+}
